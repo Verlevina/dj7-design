@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>S&Milter</title>
+	<title>Title</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,35 +16,134 @@
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-	<meta name="theme-color" content="#151515"><!--chrome, firefox OS, Opera-->
-	<meta name="msapplication-navbutton-color" content="#151515"><!--windows phone-->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#151515"><!--iOS safari-->
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#1A1A1A">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#1A1A1A">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1A1A1A">
 
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
+
 </head>
 
 <body>
-<div id="my-page">
-	<div id="my-header">
-		<header class="main-header">
-			<div class="header__header">
-				<a href="#" class="logo">
-					<img src="img/logo-1.svg" alt="Салон красоты Смилтер" width="125px" height="24px">
-				</a>
-				<a href="tel:+70000000" class="contact-tel">+70000000</a>
 
+<div id="page-wrapper">
+	<header class="page-header">
+		<div class="header__header">
+			<a href="/"
+			   class="logo"><img src="img/logo-1.svg" alt="Салон красоты S&Mitler" width="125px" height="30px"></a>
+			<a href="tel:90-2584334892507" class="phone hidden-xs"><i class="fa fa-mobile"></i>+7 (495) 118-94-35</a>
+			<a class="hamburger hamburger--emphatic" href="#my-menu">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+			</a>
+		</div>
+
+		<div class="header-flex">
+			<div class="flex-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 ">
+							<div class="header-description">
+								<div class="welcome">
+									<p>
+										<span>
+											ДОБРО ПОЖАЛОВАТЬ В ПРОФЕССИОНАЛЬНЫЙ
+										</span>
+									<h1 class="h1">Салон красоты</h1>
+									</p>
+									<div class="place">
+										<i class="fa fa-star"></i>
+										в Москве
+										<i class="fa fa-star"></i></div>
+									<div class="welcome__description">S&Mitler – это салон красоты бизнес-класса.
+										Мастера салона дарят посетителям уверенность в себе и индивидуальный стиль.
+										Здесь представлены все самые востребованные услуги бьюти-индустрии.
+									</div>
+									<a href="#" class="button">О салоне</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="header__center"></div>
-			<div class="header__footer"></div>
-		</header>
-	</div>
+		</div>
+
+
+
+		<nav id="my-menu">
+			<ul class="mm-listview">
+				<li><a href="#">Парикмахерский сервис</a></li>
+				<li><a href="#">Косметологический сервис</a></li>
+				<li class="active"><a href="#">Маникюрный сервис</a></li>
+				<li><a href="#">Массаж и SPA</a></li>
+				<li><a href="#">Солярий</a></li>
+				<li><a href="#">Наши специалисты</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">Наши сертификаты</a></li>
+				<li><a href="#">О салоне</a></li>
+			</ul>
+		</nav>
+
+
+		</div>
+		<div class="header__social">
+			<ul>
+				<li><a href="">
+					<i class="fa fa-facebook">
+
+						</i></a>
+
+					</li>
+				<li><a href="">
+					<i class="fa fa-instagram">
+
+					</i>
+				</a>
+
+				</li>
+				<li><a href="">
+				<i class="fa fa-vk">
+				</i>
+				</a>
+					</li>
+			</ul>
+		</div>
+		<div class="header__contacts">
+		<div class="row">
+			<div class="col-md-4 header__adress">
+				<i class="fa fa-location-arrow">
+
+				</i>
+				г. Москва, ул. Ивана Бабушкина, 22с1
+			</div>
+			<div class="col-md-4 header__tel">
+
+				<a href="tel:+7 (495) 118-94-35"><i class="fa fa-mobile">
+
+				</i>+7 (495) 118-94-35</a>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-clock-o">
+				</i>
+				Время работы: ежедневно, 10:00 - 22:00
+			</div>
+		</div>
+		</div>
+	</header>
+
 
 	<div id="my-content"></div>
 	<div id="my-footer"></div>
 </div>
 <script src="js/libs.min.js"></script>
-<script src="js/common.min.js"></script>
+<script src="js/common.js"></script>
 </body>
 </html>
