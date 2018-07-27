@@ -1,0 +1,67 @@
+@import 'vars';
+/*============== Desktop first ===================*/
+@media only screen and(max-width: 1200px){
+.page-header{
+  .h1{
+    font-size: 52px;
+  }
+}
+}
+@media only screen and(max-width: 992px){
+  .page-header{
+    .h1{
+      font-size: 38px;
+      margin-bottom:10px;
+    }
+    .welcome {
+      p:first-child span{
+        font-size: 10px;
+      }
+      .place{
+        font-size: 15px;
+        margin:0 0 0 0;
+      }
+      .welcome__description {
+        margin: 23px 0 32px 0;
+      }
+    }
+}
+}
+@media only screen and(max-width: 770px){
+  .header__contacts{
+    .header__adress,
+    .header__tel{
+    margin-left:20px;
+      text-align: left;
+    }
+}
+}
+@media only screen and(max-width: 576px){
+  .page-header{
+    .h1{
+      font-size: 24px;
+      margin-bottom:10px;
+    }
+    .welcome {
+      p:first-child span{
+        font-size: 8px;
+  }
+      .place{
+        font-size: 14px;
+        margin:0 0 0 0;
+      }
+    .welcome__description {
+       font-size:14px;
+      line-height: 1.5em;
+      margin:10px 0  20px 0;
+      }
+
+
+    }}
+  .header__header .phone  {
+    font-size: 20px;
+  }
+  .button{
+    padding:12px 40px;
+  }
+}

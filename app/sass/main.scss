@@ -7,7 +7,7 @@ html{
 body{
 	margin:0 auto;
 	padding:0;
-	color:#ffffff;
+	color:#000000;
 	font-family: $default-font;
 	font-size:16px;
 	min-width: 320px;
@@ -15,16 +15,19 @@ body{
 }
 .page-header{
 	display:flex;
+	flex-wrap:wrap;
 	flex-direction: column;
 	background-image: url("../img/top-bg.jpg");
 	color:#fff;
 	min-height:100vh;
-	padding:34px 45px;
+	padding:34px  0 0 0;
 	box-sizing: border-box;
 }
 .header__header {
 	display: flex;
+	flex-wrap:wrap;
 	justify-content: space-between;
+	margin-left:45px;
 	a{
 		text-decoration: none;
 		color:white;
@@ -51,7 +54,7 @@ body{
 		}
 	}
 	.phone{
-		margin-right:40px;
+		margin-right:80px;
 		font-size: 22px;
 		i{
 			margin-right:10px
@@ -136,15 +139,10 @@ body{
 	margin: 0;
 }
 .header-flex{
-
 	margin-top:auto;
 	margin-bottom:auto;
-
  }
-.flex-center{
 
-
-}
 .h1,.h2,.h3,.h4,.h5,.h6{
 	line-height: 1.4;
 	text-transform: uppercase;
@@ -310,12 +308,8 @@ ul{
 		}
 }
 .header__contacts {
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	padding: 13px 0;
 	width: 100%;
-
 	border-top: 1px solid #ffffff;
 	background-color: rgba(21, 21, 21, 0.15);
 	i {
@@ -352,5 +346,30 @@ section,header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.owl-item:nth-child(3n+1)>.item{
+	background-color: $blue;
+}
+.owl-item:nth-child(3n+2){
+	background-color: $red;
+}
+.owl-item:nth-child(3n){
+	background-color: $accent-color;
+}
+.owl-item{
+	display:flex;
+	flex-direction: column;
+}
+.carosel-item__wrap{
+
+}
+/*служебные*/
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
 }
 @import 'media';

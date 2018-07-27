@@ -59,4 +59,12 @@ $(document).ready(function() {
     API.bind( "close:finish", function() {
         $menuBtn.removeClass('is-active');
     });
+    // карусель
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+            margin:0,
+            nav:true,
+            smartSpeed:700,
+            navText:['<i class="fa fa-angle-double-left"></i>','<i class="fa fa-angle-double-right"></i>']});
 });
