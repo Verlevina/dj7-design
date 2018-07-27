@@ -66,5 +66,17 @@ $(document).ready(function() {
             margin:0,
             nav:true,
             smartSpeed:700,
+            responsiveClass:true,
+            responsive:{
+            0:{
+                items:1,
+            },
+            800:{
+              items:2,
+            },
+            1100:{
+                items:3,
+            }
+            },
             navText:['<i class="fa fa-angle-double-left"></i>','<i class="fa fa-angle-double-right"></i>']});
 });
