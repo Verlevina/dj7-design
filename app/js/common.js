@@ -1,35 +1,5 @@
 $(document).ready(function() {
 
-    // var $menu = $("#my-menu").mmenu({
-    //     extensions: ['theme-black', 'pagedim-black'],
-    //     navbar: {
-    //         title: '<img src="../img/logo-1.svg" alt="" width="125px" height="24px"/>'
-    //     },
-    //     // configuration
-    //     offCanvas: {
-    //         pageNodetype: "section",
-    //         position: "right"
-    //     },
-    // });
-    //
-    // var $icon = $ ("#mmenu-icon");
-    // var API = $menu.data ("mmenu");
-    //
-    // $icon.on ("click", function (event) {
-    //     API.open ();
-    //     setTimeout (function () {
-    //         $icon.addClass("is-active");
-    //     }, 100);
-    //     event.preventDefault();
-    // });
-    // $icon.on ("click", function (event) {
-    //     setTimeout (function () {
-    //         $icon.removeClass("is-active");
-    //     }, 100);
-    //     event.preventDefault();
-    // });
-
-
     /* Mmenu */
     $("#my-menu").mmenu({
         extensions: ['effect-menu-slide','theme-black', 'pagedim-black'],
@@ -60,11 +30,16 @@ $(document).ready(function() {
         $menuBtn.removeClass('is-active');
     });
     // карусель
-
+    $('.owl-carousel').on('initialized.own.carousel', function(){
+        setTimeout(function() {
+            carouselService();
+        },100)
+    });
     $('.owl-carousel').owlCarousel({
-        loop:true,
+            loop:true,
             margin:0,
             nav:true,
+            dots:false,
             smartSpeed:700,
             responsiveClass:true,
             responsive:{
@@ -79,4 +54,10 @@ $(document).ready(function() {
             }
             },
             navText:['<i class="fa fa-angle-double-left"></i>','<i class="fa fa-angle-double-right"></i>']});
+
+$('select').selectize({
+    create: true,
+    sortField: 'text'
+
+});
 });

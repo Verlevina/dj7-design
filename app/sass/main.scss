@@ -335,12 +335,8 @@ ul{
 			text-decoration: none;
 			color:#ffffff;
 		}
-
 }
-
-
 }
-
 
 section,header{
 	-webkit-background-size: cover;
@@ -372,8 +368,8 @@ section,header{
 	//	order:1;
 	//}
 }
-.carosel-item__wrap{
-padding:70px;
+.carousel-item__wrap{
+padding:34px  10%;
 	display:flex;
 	flex-direction: column;
 justify-content: center;
@@ -411,18 +407,128 @@ justify-content: center;
 			}
 		}
 	}
-	.button{
-		align-self: center;
-		background-color: #fff;
-		color:#000000;
-		&:hover,
-		&:focus{
-			opacity:0.5;
+
+}
+.button-white{
+	align-self: center;
+	background-color: #fff;
+	color:#000000;
+	&:hover,
+	&:focus{
+		opacity:0.5;
+	}
+	&:active{
+		opacity:0.2;
+	}
+
+}
+.owl-theme .owl-nav {
+	margin:0;
+	[class*=owl-] {
+		position: absolute;
+		top: 0;
+
+		width: 64px;
+		height: 64px;
+		line-height: 64px;
+		font-size: 50px;
+		color: $dark;
+		text-align: center;
+		opacity: 0.5;
+	}
+}
+.owl-nav .owl-next{
+	right: 0;
+}
+.owl-nav .owl-prev{
+	left:0;
+}
+
+.king{
+	padding:5%;
+	position:relative;
+	background:#484646 url(../img/photos/foto-16.jpg) no-repeat;
+	color:white;
+	-webkit-background-size: cover;
+	background-size: cover;
+	div{
+	text-align: center;
+		p{
+			text-align: left;
+			padding:20px 40px;
+
 		}
-		&:active{
-			opacity:0.2;
+	}
+	&::before{
+		content:'';
+		position: absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width: 100%;
+		background-color: rgba(#3d3d3c,0.92);
+	}
+	.h2{
+		font-size: 30px;
+		font-weight: 800;
+		color:$accent-color;
+		span{
+			color:white;}
+	}
+}
+.fotorama{
+
+	background-color: rgba(0,0,0,0.4);
+	.fotorama__nav{
+		&-wrap{
+			position:absolute;
+			bottom: 15px;
+			width:100%;
+			.fotorama__thumb{
+				border: 5px solid white;
+				box-sizing:border-box;
+
+			}
 		}
 
+	}
+	.fotorama__thumb-border{
+		border-color: darken($accent-color,20%) ;
+	}
+}
+
+
+.write-us{
+
+	background-image: url('../img/madama.jpg');
+	color:black;
+	background-color: white;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 40% 0;
+
+	.form-wrap{
+		padding:25% 15%;
+
+		background-color: rgba($accent-color,0.9);
+		color:white;
+	}
+	.callback-logo{
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0 ;
+		p.put-letter{
+			font-size: 30px;
+			margin:0;
+		}
+	}
+
+}
+.success {
+	span {
+		display: none;
 	}
 }
 /*служебные*/
