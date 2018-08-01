@@ -35,6 +35,8 @@
       text-align: left;
     }
 }
+
+
 }
 @media only screen and(max-width: 576px){
   .page-header{
@@ -57,11 +59,18 @@
       }
 
 
-    }}
+    }
+   }
   .header__header .phone  {
     font-size: 20px;
   }
   .button{
     padding:12px 40px;
+  }
+  .write-us .form-wrap{
+    padding:0;
+  }
+  .write-us{
+    background-size: cover;
   }
 }
