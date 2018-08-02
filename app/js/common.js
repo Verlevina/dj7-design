@@ -29,13 +29,15 @@ $(document).ready(function() {
     API.bind( "close:finish", function() {
         $menuBtn.removeClass('is-active');
     });
+
+
     // карусель
-    $('.owl-carousel').on('initialized.own.carousel', function(){
+    $('.carousel__services').on('initialized.own.carousel', function(){
         setTimeout(function() {
             carouselService();
         },100)
     });
-    $('.owl-carousel').owlCarousel({
+    $('.carousel__services').owlCarousel({
             loop:true,
             margin:0,
             nav:true,
@@ -60,4 +62,62 @@ $('select').selectize({
     sortField: 'text'
 
 });
+    //
+    // $('.owl-carousel-2').owlCarousel({
+    //     loop:true,
+    //     margin:100px,
+    //     nav:true,
+    //     dots:false,
+    //     smartSpeed:700,
+    //     responsiveClass:true,
+    //     });
+
+
+    //E-mail Ajax Send
+    $("form.callback").submit(function() { //Change
+        var th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "mail.php", //Change
+            data: th.serialize()
+        }).done(function() {
+            $(th).find('.success').addClass('active').css('display','flex').hide().fadeIn();
+            setTimeout(function() {
+                $(th).find('.success').removeClass('active').fadeOut();
+                th.trigger("reset");
+            }, 3000);
+        });
+        return false;
+    });
+$('.rewievs').owlCarousel({
+    loop:true,
+    margin:20,
+    items:1,
+    smartSpeed:700,
+    nav:false,
+    dots:true,
+    responsiveClass:true,
+    autoHeight:true,
+    });
+    $('.partners-carousel').owlCarousel({
+        loop:true,
+        margin:40,
+        items:4,
+        smartSpeed:700,
+        nav:true,
+        dots:false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:2,
+            },
+            800:{
+                items:4,
+            },
+            1100:{
+                items:4,
+            }
+        },
+    });
+
 });
