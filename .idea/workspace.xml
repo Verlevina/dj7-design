@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbaac508-2c5a-43b0-b927-f2d5a54df331" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5041534">
+    <splitter split-orientation="horizontal" split-proportion="0.50641024">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="306" column="102" selection-start-line="306" selection-start-column="102" selection-end-line="306" selection-end-column="102" />
+                <state relative-caret-position="-1019">
+                  <caret line="276" column="81" selection-start-line="276" selection-start-column="81" selection-end-line="276" selection-end-column="81" />
                 </state>
               </provider>
             </entry>
@@ -56,8 +53,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="715">
-                  <caret line="719" column="23" selection-start-line="719" selection-start-column="23" selection-end-line="719" selection-end-column="23" />
+                <state relative-caret-position="596">
+                  <caret line="723" column="1" selection-start-line="723" selection-start-column="1" selection-end-line="723" selection-end-column="1" />
                   <folding>
                     <element signature="e#7379#7523#0" />
                     <element signature="e#7520#7824#0" />
@@ -117,8 +114,8 @@
         <option value="$PROJECT_DIR$/app/mail.php" />
         <option value="$PROJECT_DIR$/app/sass/libs.scss" />
         <option value="$PROJECT_DIR$/app/sass/_media.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
       </list>
     </option>
@@ -140,8 +137,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="846" />
-    <option name="width" value="1081" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -167,13 +164,6 @@
               <item name="dj7-design" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dj7-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dj7-design" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="partners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dj7-design" type="b2602c69:ProjectViewProjectNode" />
@@ -235,19 +225,19 @@
       <workItem from="1532437393717" duration="20641000" />
       <workItem from="1532517900103" duration="17784000" />
       <workItem from="1532691875406" duration="10807000" />
-      <workItem from="1533040564418" duration="27598000" />
+      <workItem from="1533040564418" duration="29512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76830000" />
+    <option name="totallyTimeSpent" value="78744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="846" y="0" width="1081" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -461,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="306" column="102" selection-start-line="306" selection-start-column="102" selection-end-line="306" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -477,13 +460,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="719" column="23" selection-start-line="719" selection-start-column="23" selection-end-line="719" selection-end-column="23" />
+        <state relative-caret-position="596">
+          <caret line="723" column="1" selection-start-line="723" selection-start-column="1" selection-end-line="723" selection-end-column="1" />
           <folding>
             <element signature="e#7379#7523#0" />
             <element signature="e#7520#7824#0" />
             <element signature="e#8211#8440#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1019">
+          <caret line="276" column="81" selection-start-line="276" selection-start-column="81" selection-end-line="276" selection-end-column="81" />
         </state>
       </provider>
     </entry>

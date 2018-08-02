@@ -708,9 +708,10 @@ selectize-input {
 
 }
 .partners{
+  padding:50px 0;
   text-align: center;
   .item{
-    height:100px;
+    height:170px;
     display:flex;
     img{
       margin:auto;
@@ -719,6 +720,10 @@ selectize-input {
   .h2{
     margin-bottom:50px;
   }
+}
+.footer{
+  background-color: $dark;
+  color:white;
 }
 
 /*служебные*/
